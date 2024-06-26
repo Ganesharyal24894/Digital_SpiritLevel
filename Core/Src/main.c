@@ -150,6 +150,7 @@ int main(void) {
 			 *
 			 */
 
+			/*Performing Complementery sensor fusion of data from Gyroscope and Accelerometer*/
 			FltrRoll = (((atan(calibrated_Ay / calibrated_Az)) * RAD_TO_DEG)
 					* 0.15) + ((FltrRoll + calibrated_Gx * delta_time) * 0.85);
 			FltrPitch = ((-(atan(calibrated_Ax / calibrated_Az)) * RAD_TO_DEG)
