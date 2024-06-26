@@ -7,4 +7,7 @@ In this project you will learn about ARM's microcontroller, STM's microarchitect
 
 ![IMG_20240626_020623](https://github.com/Ganesharyal24894/Digital_SpiritLevel/assets/60917724/1e65e153-ab34-4b26-8f29-20f5332ab720)
 
-This is how my project looks I have completely built it on breadboard without any dev board, it uses STM32G030F6P6TR barechip TSSOP20 package with a breakout board only. Main purpose of choosing this approach is to make sure you get good hardware knowledge as well however if you are not comfortable with barechip you can use some other dev board like STM32 BluePill, STM32 BlackPill or something similar. 
+
+This is how my project looks I have completely built it on breadboard without any dev board, it uses STM32G030F6P6TR barechip TSSOP20 package with a breakout board only. Main purpose of choosing this approach is to make sure you get good hardware exposure as well however if you are not comfortable with barechip you can use some other dev board like STM32 BluePill, STM32 BlackPill or something similar.
+
+Demo Video : https://youtu.be/k73epQaeB_s?si=VSD0JSXxt1MuTGu5
