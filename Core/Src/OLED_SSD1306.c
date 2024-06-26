@@ -152,8 +152,8 @@ void OLED_SinglePixel(I2C_HandleTypeDef *i2c, uint8_t clm, uint8_t row,
 	 */
 
 	OLED_Ram_Buffer[page][clm] = oled_data;
-//	OLED_SetCursor(i2c, page, clm);
-//	HAL_I2C_Mem_Write(i2c, OLED_ADD, OLED_DATA_REG, 1, &oled_data, 1, 1000);
+	// OLED_SetCursor(i2c, page, clm);
+	// HAL_I2C_Mem_Write(i2c, OLED_ADD, OLED_DATA_REG, 1, &oled_data, 1, 1000);
 
 }
 
